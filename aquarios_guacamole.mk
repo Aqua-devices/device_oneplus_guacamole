@@ -6,6 +6,7 @@
 
 $(call inherit-product, device/oneplus/guacamole/device.mk)
 $(call inherit-product, vendor/aquarios/config/common_full_phone.mk)
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aquarios_guacamole
